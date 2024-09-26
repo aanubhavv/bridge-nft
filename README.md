@@ -47,19 +47,14 @@ The constructor initializes the contract with the name MetaPixel and the symbol 
 ### Installation
 1. Clone the repository:
   ```shell
-  git clone https://github.com/imankush10/poly-1
+  git clone https://github.com/aanubhavv/bridge-nft.git
   cd poly-1
   ```
 2. Install dependencies:
 ```shell
 npm install
 ```
-3. Setting up environment variables:
-  ```
-  POLYGON_API_URL = "Polygon API URL from Alchemy"
-  SEPOLIA_API_URL = "Sepolia API URL from Alchemy"
-  PRIVATE_KEY = "Your Private Key"
-  ```
+
 ### Executing program
 
 4. Compile the contract:
@@ -80,7 +75,7 @@ npx hardhat run scripts/approveDeposit.js --network sepolia
 ```
 8. Getting balance:
 ```shell
-npx hardhat run scripts/getBalance.js --network polygon_amoy
+npx hardhat run scripts/getBalance.js --network amoy
 ```
 
 
